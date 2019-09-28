@@ -1,10 +1,10 @@
 # quickstart起步模块
 ## 1.简单的登录
 - login.html登录页面输入用户名和密码，通过表单发起请求
-![Snipaste_2019-09-26_21-30-26.png](http://ww1.sinaimg.cn/large/0067OQVXgy1g7d8s9rooij30gg07vt8t.jpg)
+
 
 - LoginServlet拦截到"/login.do"请求，判断用户名和密码是否匹配，是就将用户名记入session，跳转到index.jsp，否则继续跳回登录页
-![Snipaste_2019-09-26_21-30-40.png](http://ww1.sinaimg.cn/large/0067OQVXgy1g7d8sq2wjdj30f304r74a.jpg)
+
 
 - index.jsp首页根据session中是否有登录信息，来显示用户名或显示去登陆
 ![Snipaste_2019-09-26_21-31-00.png](http://ww1.sinaimg.cn/large/0067OQVXgy1g7d8sylkmuj30ex05ygln.jpg)
